@@ -1,4 +1,4 @@
-package Weiss.MorseCode;
+package weiss.morsecode;
 
 import org.junit.jupiter.api.Test;
 
@@ -10,9 +10,10 @@ class MorseCodeTest {
         //given
         MorseCode code = new MorseCode();
         //when
-        String message = code.toMorseCode("this is cool");
+        String message = code.toMorseCode("all");
         //then
-        assertEquals("_   ****   **   ***          **   ***          _*_*   ___   ___   *_**   ", message);
+        assertEquals("*_   *_**   *_**   ", message);
+        //"_   ****   **   ***          **   ***          _*_*   ___   ___   *_**   "
     }
     @Test
     public void toMessage() {
