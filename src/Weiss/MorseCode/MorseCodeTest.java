@@ -13,7 +13,6 @@ class MorseCodeTest {
         String message = code.toMorseCode("all");
         //then
         assertEquals("*_   *_**   *_**   ", message);
-        //"_   ****   **   ***          **   ***          _*_*   ___   ___   *_**   "
     }
     @Test
     public void toMessage() {
